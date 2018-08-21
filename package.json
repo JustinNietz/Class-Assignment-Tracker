@@ -1,0 +1,41 @@
+{
+  "name": "class-assignment-tracker",
+  "version": "1.0.0",
+  "description": "For usage in a classroom setting for students to access homework due",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustinNietz/Class-Assignment-Tracker.git"
+  },
+  "author": "Justin Nietzer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustinNietz/Class-Assignment-Tracker/issues"
+  },
+  "homepage": "https://github.com/JustinNietz/Class-Assignment-Tracker#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.9",
+    "morgan": "^1.9.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.0.0",
+    "faker": "^4.1.0",
+    "mocha": "^5.2.0"
+  }
+}
